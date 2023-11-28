@@ -1,0 +1,18 @@
+/*
+ * TaskManager.cpp
+ *
+ *  Created on: Mar 10, 2022
+ *      Author: winne
+ */
+
+#include "TaskManager.hpp"
+
+TaskManager::TaskManager() {
+	// TODO Auto-generated constructor stub
+
+}
+
+TaskManager::~TaskManager() {
+	// TODO Auto-generated destructor stub
+}
+

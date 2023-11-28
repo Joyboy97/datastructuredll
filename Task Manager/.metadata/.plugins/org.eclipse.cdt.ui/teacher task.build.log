@@ -1,0 +1,9 @@
+17:04:24 **** Build of configuration Build (GNU) for project teacher task ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+
+17:04:24 Build Failed. 1 errors, 0 warnings. (took 106ms)
+

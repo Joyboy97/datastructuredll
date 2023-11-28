@@ -1,0 +1,18 @@
+/*
+ * MainDLL.cpp
+ *
+ *  Created on: Mar 15, 2021
+ *      Author: 13027
+ */
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+
+#include "TaskManager.hpp"
+using namespace std;
+
+int main() {
+	srand(time(NULL));
+	TaskManager *list = new TaskManager("ListofTasks.txt");
+}
+

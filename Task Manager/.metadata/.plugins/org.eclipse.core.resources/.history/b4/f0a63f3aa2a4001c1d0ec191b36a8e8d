@@ -1,0 +1,17 @@
+/*
+ * DNode.hpp
+ *
+ *  Created on: Mar 10, 2022
+ *      Author: winne
+ */
+
+#ifndef DNODE_HPP_
+#define DNODE_HPP_
+
+class DNode {
+public:
+	DNode();
+	virtual ~DNode();
+};
+
+#endif /* DNODE_HPP_ */

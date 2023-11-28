@@ -1,0 +1,7 @@
+23:56:04 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+
+23:56:05 Build Finished. 0 errors, 0 warnings. (took 605ms)
+

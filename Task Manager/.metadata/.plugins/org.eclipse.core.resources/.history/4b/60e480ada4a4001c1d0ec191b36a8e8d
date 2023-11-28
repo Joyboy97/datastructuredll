@@ -1,0 +1,17 @@
+/*
+ * TaskManager.hpp
+ *
+ *  Created on: Mar 10, 2022
+ *      Author: winne
+ */
+
+#ifndef TASKMANAGER_HPP_
+#define TASKMANAGER_HPP_
+
+class TaskManager {
+public:
+	TaskManager();
+	virtual ~TaskManager();
+};
+
+#endif /* TASKMANAGER_HPP_ */

@@ -1,0 +1,17 @@
+/*
+ * DLL.hpp
+ *
+ *  Created on: Mar 10, 2022
+ *      Author: winne
+ */
+
+#ifndef DLL_HPP_
+#define DLL_HPP_
+
+class DLL {
+public:
+	DLL();
+	virtual ~DLL();
+};
+
+#endif /* DLL_HPP_ */

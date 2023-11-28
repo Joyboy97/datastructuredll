@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;TaskMan&apos; to &apos;DLLTaskManager&apos;" description="Rename resource &apos;TaskMan&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/TaskMan" name="DLLTaskManager" stamp="1646973545204" updateReferences="true"/>
+</session>

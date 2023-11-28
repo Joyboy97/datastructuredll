@@ -1,0 +1,3 @@
+C:/Users/winne/Desktop/UDstuff/spring2022/cisc220 c++/TaskManager/cmake-build-debug/CMakeFiles/TaskManager.dir
+C:/Users/winne/Desktop/UDstuff/spring2022/cisc220 c++/TaskManager/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/winne/Desktop/UDstuff/spring2022/cisc220 c++/TaskManager/cmake-build-debug/CMakeFiles/rebuild_cache.dir

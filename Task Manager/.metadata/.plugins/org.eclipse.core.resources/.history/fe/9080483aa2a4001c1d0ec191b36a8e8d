@@ -1,0 +1,18 @@
+/*
+ * DLL.cpp
+ *
+ *  Created on: Mar 10, 2022
+ *      Author: winne
+ */
+
+#include "DLL.hpp"
+
+DLL::DLL() {
+	// TODO Auto-generated constructor stub
+
+}
+
+DLL::~DLL() {
+	// TODO Auto-generated destructor stub
+}
+

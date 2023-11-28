@@ -1,0 +1,1406 @@
+
+Invoking autoreconf in build directory: C:/Users/winne/Desktop/UD/cisc220/teacherdll/
+
+
+Configuration failed with error
+(sh -c "autoreconf -i" 
+Cannot run program "sh": Launching failed
+
+Error: Program "sh" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+)16:32:07 **** Rebuild of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+..\DNode.cpp: In constructor 'DNode::DNode()':
+..\DNode.cpp:12:9: warning: unused variable 'last' [-Wunused-variable]
+  DNode *last;
+         ^~~~
+..\DNode.cpp:13:6: warning: unused variable 'data' [-Wunused-variable]
+  int data;
+      ^~~~
+..\DNode.cpp:14:9: warning: unused variable 'next' [-Wunused-variable]
+  DNode *next;
+         ^~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Task.o "..\\Task.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+Invoking autoreconf in build directory: C:/Users/winne/Desktop/UD/cisc220/teacherdll/
+
+
+Configuration failed with error
+(sh -c "autoreconf -i" 
+Cannot run program "sh": Launching failed
+
+Error: Program "sh" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+)Build stopped
+()16:32:08 **** Build of configuration Build (GNU) for project teacher task ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+16:33:57 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+Invoking autoreconf in build directory: C:/Users/winne/Desktop/UD/cisc220/teacherdll/
+
+
+Configuration failed with error
+(sh -c "autoreconf -i" 
+Cannot run program "sh": Launching failed
+
+Error: Program "sh" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+)Build stopped
+()16:33:57 **** Incremental Build of configuration Build (GNU) for project teacher task ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+16:34:01 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../libmingw32.a(main.o):(.text.startup+0xa0): undefined reference to `WinMain@16'
+collect2.exe: error: ld returned 1 exit status
+
+Invoking autoreconf in build directory: C:/Users/winne/Desktop/UD/cisc220/teacherdll/
+
+
+Configuration failed with error
+(sh -c "autoreconf -i" 
+Cannot run program "sh": Launching failed
+
+Error: Program "sh" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+)Build stopped
+()16:34:01 **** Incremental Build of configuration Build (GNU) for project teacher task ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+17:04:23 **** Rebuild of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+In file included from ..\DNode.hpp:13:0,
+                 from ..\DNode.cpp:10:
+..\Task.hpp:8:0: error: unterminated #ifndef
+ #ifndef TASK_HPP_
+ 
+
+Invoking autoreconf in build directory: C:/Users/winne/Desktop/UD/cisc220/teacherdll/
+
+
+Configuration failed with error
+(sh -c "autoreconf -i" 
+Cannot run program "sh": Launching failed
+
+Error: Program "sh" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+)Build stopped
+()17:04:24 **** Build of configuration Build (GNU) for project teacher task ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin/server;C:/Users/winne/Desktop/UD/cisc220/eclipse-cpp-2021-12-R/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.1.v20211116-1657/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Java\jdk-16.0.2\bin;C:\MinGW\bin;C:\Users\winne\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\winne\AppData\Local\Programs\Python\Python39\;C:\Users\winne\AppData\Local\Microsoft\WindowsApps;C:\Users\winne\AppData\Local\GitHubDesktop\bin;C:\Users\winne\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\winne\.dotnet\tools;C:\Users\winne\Desktop\Eclipse;;C:\Users\winne\Desktop\UD\cisc220\eclipse-cpp-2021-12-R\eclipse;]
+17:04:55 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+g++: error: DNode.o: No such file or directory
+17:05:06 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+g++: error: DNode.o: No such file or directory
+17:05:14 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+g++: error: DNode.o: No such file or directory
+17:05:25 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+g++: error: DNode.o: No such file or directory
+17:05:32 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+g++: error: DNode.o: No such file or directory
+17:05:49 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+g++: error: DNode.o: No such file or directory
+17:07:00 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+In file included from ..\DNode.hpp:13:0,
+                 from ..\DLL.cpp:2:
+..\Task.hpp:8:0: error: unterminated #ifndef
+ #ifndef TASK_HPP_
+ 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:44:3: warning: label 'AYUDA' defined but not used [-Wunused-label]
+   AYUDA:
+   ^~~~~
+..\DLL.cpp: In member function 'int DLL::remove(int)':
+..\DLL.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+17:07:27 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+In file included from ..\DNode.hpp:13:0,
+                 from ..\DLL.cpp:2:
+..\Task.hpp:8:0: error: unterminated #ifndef
+ #ifndef TASK_HPP_
+ 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:44:3: warning: label 'AYUDA' defined but not used [-Wunused-label]
+   AYUDA:
+   ^~~~~
+..\DLL.cpp: In member function 'int DLL::remove(int)':
+..\DLL.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+17:07:39 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+In file included from ..\DNode.hpp:13:0,
+                 from ..\DLL.cpp:2:
+..\Task.hpp:8:0: error: unterminated #ifndef
+ #ifndef TASK_HPP_
+ 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:44:3: warning: label 'AYUDA' defined but not used [-Wunused-label]
+   AYUDA:
+   ^~~~~
+..\DLL.cpp: In member function 'int DLL::remove(int)':
+..\DLL.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+17:08:04 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:44:3: warning: label 'AYUDA' defined but not used [-Wunused-label]
+   AYUDA:
+   ^~~~~
+..\DLL.cpp: In member function 'int DLL::remove(int)':
+..\DLL.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Task.o "..\\Task.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+..\MainDLL.cpp: In function 'int main()':
+..\MainDLL.cpp:16:15: warning: unused variable 'list' [-Wunused-variable]
+  TaskManager *list = new TaskManager("ListofTasks.txt");
+               ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+23:13:59 **** Rebuild of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+..\MainDLL.cpp: In function 'int main()':
+..\MainDLL.cpp:16:15: warning: unused variable 'list' [-Wunused-variable]
+  TaskManager *list = new TaskManager("ListofTasks.txt");
+               ^~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Task.o "..\\Task.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:44:3: warning: label 'AYUDA' defined but not used [-Wunused-label]
+   AYUDA:
+   ^~~~~
+..\DLL.cpp: In member function 'int DLL::remove(int)':
+..\DLL.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+23:14:28 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Task.o "..\\Task.cpp" 
+In file included from ..\Task.cpp:12:0:
+..\Task.hpp:8:0: error: unterminated #ifndef
+ #ifndef TASK_HPP_
+ 
+23:15:03 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+..\MainDLL.cpp: In function 'int main()':
+..\MainDLL.cpp:16:15: warning: unused variable 'list' [-Wunused-variable]
+  TaskManager *list = new TaskManager("ListofTasks.txt");
+               ^~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Task.o "..\\Task.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:44:3: warning: label 'AYUDA' defined but not used [-Wunused-label]
+   AYUDA:
+   ^~~~~
+..\DLL.cpp: In member function 'int DLL::remove(int)':
+..\DLL.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+23:16:29 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'int DLL::remove(int)':
+..\DLL.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+23:19:58 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList()':
+..\DLL.cpp:70:9: error: 'tmp' was not declared in this scope
+   while(tmp!=NULL){
+         ^~~
+..\DLL.cpp: In member function 'int DLL::remove(int)':
+..\DLL.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+23:20:24 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'int DLL::remove(int)':
+..\DLL.cpp:157:2: warning: no return statement in function returning non-void [-Wreturn-type]
+  }
+  ^
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+23:55:06 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:28:28 **** Rebuild of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+..\MainDLL.cpp: In function 'int main()':
+..\MainDLL.cpp:16:15: warning: unused variable 'list' [-Wunused-variable]
+  TaskManager *list = new TaskManager("ListofTasks.txt");
+               ^~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Task.o "..\\Task.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:31:48 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:32:31 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:33:36 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:34:27 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+15:39:35 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:39:47 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+15:42:48 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:44:03 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:44:28 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:44:48 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:45:41 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:46:13 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:47:28 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:48:46 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:49:25 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:05:07 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:24:49 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+..\MainDLL.cpp: In function 'int main()':
+..\MainDLL.cpp:16:15: warning: unused variable 'list' [-Wunused-variable]
+  TaskManager *list = new TaskManager("ListofTasks.txt");
+               ^~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+DLL.o: In function `ZN3DLLD2Ev':
+C:\Users\winne\Desktop\UD\cisc220\Task Manager\DLLTaskManager\Debug/../DLL.cpp:210: undefined reference to `DNode::~DNode()'
+collect2.exe: error: ld returned 1 exit status
+16:25:11 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+..\MainDLL.cpp: In function 'int main()':
+..\MainDLL.cpp:16:15: warning: unused variable 'list' [-Wunused-variable]
+  TaskManager *list = new TaskManager("ListofTasks.txt");
+               ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:32:34 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:32:43 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:35:21 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:42:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=new DNode();
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:39:28 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:58:56 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+19:12:37 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+..\MainDLL.cpp: In function 'int main()':
+..\MainDLL.cpp:16:15: warning: unused variable 'list' [-Wunused-variable]
+  TaskManager *list = new TaskManager("ListofTasks.txt");
+               ^~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:42:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=new DNode();
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+19:14:21 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+19:14:48 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:42:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=new DNode();
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:18:09 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:57:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:22:42 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:57:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:23:07 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:57:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:23:35 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:57:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:23:50 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:57:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:29:27 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:57:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:29:44 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:57:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:30:46 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:57:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:31:58 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:56:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:32:24 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:56:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:35:51 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:56:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+10:36:32 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:56:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:136:4: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+    for(int i=1;i<=t;i++)
+    ^~~
+..\DLL.cpp:138:5: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+     tmpm=tmpm->next;
+     ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:29:43 **** Rebuild of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Task.o "..\\Task.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+..\MainDLL.cpp: In function 'int main()':
+..\MainDLL.cpp:16:15: warning: unused variable 'list' [-Wunused-variable]
+  TaskManager *list = new TaskManager("ListofTasks.txt");
+               ^~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:56:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:136:4: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+    for(int i=1;i<=t;i++)
+    ^~~
+..\DLL.cpp:138:5: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+     tmpm=tmpm->next;
+     ^~~~
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DNode.o "..\\DNode.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:32:01 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:56:10: warning: unused variable 'tmppu' [-Wunused-variable]
+   DNode *tmppu=r;
+          ^~~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:47:58 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:48:43 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:49:36 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:50:51 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:51:21 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:51:54 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:59:28 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:59:54 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:02:14 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:50:48 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+14:50:06 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+14:55:47 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::push(std::__cxx11::string, int, int, int)':
+..\DLL.cpp:56:3: error: expected primary-expression before '/' token
+   /
+   ^
+14:55:58 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+14:56:28 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+14:58:13 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:52:15 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+15:53:03 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+15:55:18 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:55:57 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+15:56:59 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:19:11 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+16:20:17 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+16:23:48 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+16:45:21 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+17:00:31 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:149:59: warning: 'i' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     cout<<"Hey moveup "<<tmpm->task->task <<" for count"<<i<<endl;
+                                                           ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TaskManager.o "..\\TaskManager.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o MainDLL.o "..\\MainDLL.cpp" 
+..\MainDLL.cpp: In function 'int main()':
+..\MainDLL.cpp:16:15: warning: unused variable 'list' [-Wunused-variable]
+  TaskManager *list = new TaskManager("ListofTasks.txt");
+               ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:01:16 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+17:11:43 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:12:01 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+17:16:33 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:21:28 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:38:50 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+17:41:51 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:42:59 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:44:10 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:46:00 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:47:54 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:48:57 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:55:23 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+17:59:05 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:131:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:00:13 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:131:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:00:45 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:131:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:01:20 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:131:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:03:02 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:131:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:04:02 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:132:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:04:31 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:133:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:16:38 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:133:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:18:51 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:199:9: error: no match for 'operator>>' (operand types are 'std::ostream {aka std::basic_ostream<char>}' and 'const char [13]')
+     cout>>"move up here">>endl;
+     ~~~~^~~~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\string:53:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\locale_classes.h:40,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\ios_base.h:41,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ios:42,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\ostream:38,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:39,
+                 from ..\Task.hpp:10,
+                 from ..\DNode.hpp:13,
+                 from ..\DLL.cpp:2:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc:1437:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator>>(basic_istream<_CharT, _Traits>& __in,
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\basic_string.tcc:1437:5: note:   template argument deduction/substitution failed:
+..\DLL.cpp:199:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<_CharT, _Traits>'
+     cout>>"move up here">>endl;
+           ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:934:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:40,
+                 from ..\Task.hpp:10,
+                 from ..\DNode.hpp:13,
+                 from ..\DLL.cpp:2:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc:955:5: note: candidate: template<class _CharT2, class _Traits2> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT2*)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc:955:5: note:   template argument deduction/substitution failed:
+..\DLL.cpp:199:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<_CharT, _Traits>'
+     cout>>"move up here">>endl;
+           ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:934:0,
+                 from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:40,
+                 from ..\Task.hpp:10,
+                 from ..\DNode.hpp:13,
+                 from ..\DLL.cpp:2:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc:923:5: note: candidate: template<class _CharT, class _Traits> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&, _CharT&)
+     operator>>(basic_istream<_CharT, _Traits>& __in, _CharT& __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\bits\istream.tcc:923:5: note:   template argument deduction/substitution failed:
+..\DLL.cpp:199:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<_CharT, _Traits>'
+     cout>>"move up here">>endl;
+           ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\Task.hpp:10,
+                 from ..\DNode.hpp:13,
+                 from ..\DLL.cpp:2:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:756:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char&)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char& __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:756:5: note:   template argument deduction/substitution failed:
+..\DLL.cpp:199:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<char, _Traits>'
+     cout>>"move up here">>endl;
+           ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\Task.hpp:10,
+                 from ..\DNode.hpp:13,
+                 from ..\DLL.cpp:2:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:761:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char&)
+     operator>>(basic_istream<char, _Traits>& __in, signed char& __c)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:761:5: note:   template argument deduction/substitution failed:
+..\DLL.cpp:199:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<char, _Traits>'
+     cout>>"move up here">>endl;
+           ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\Task.hpp:10,
+                 from ..\DNode.hpp:13,
+                 from ..\DLL.cpp:2:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:803:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, unsigned char*)
+     operator>>(basic_istream<char, _Traits>& __in, unsigned char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:803:5: note:   template argument deduction/substitution failed:
+..\DLL.cpp:199:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<char, _Traits>'
+     cout>>"move up here">>endl;
+           ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\Task.hpp:10,
+                 from ..\DNode.hpp:13,
+                 from ..\DLL.cpp:2:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:808:5: note: candidate: template<class _Traits> std::basic_istream<char, _Traits>& std::operator>>(std::basic_istream<char, _Traits>&, signed char*)
+     operator>>(basic_istream<char, _Traits>& __in, signed char* __s)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:808:5: note:   template argument deduction/substitution failed:
+..\DLL.cpp:199:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<char, _Traits>'
+     cout>>"move up here">>endl;
+           ^~~~~~~~~~~~~~
+In file included from c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\iostream:40:0,
+                 from ..\Task.hpp:10,
+                 from ..\DNode.hpp:13,
+                 from ..\DLL.cpp:2:
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:924:5: note: candidate: template<class _CharT, class _Traits, class _Tp> std::basic_istream<_CharT, _Traits>& std::operator>>(std::basic_istream<_CharT, _Traits>&&, _Tp&)
+     operator>>(basic_istream<_CharT, _Traits>&& __is, _Tp& __x)
+     ^~~~~~~~
+c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\istream:924:5: note:   template argument deduction/substitution failed:
+..\DLL.cpp:199:11: note:   'std::ostream {aka std::basic_ostream<char>}' is not derived from 'std::basic_istream<_CharT, _Traits>'
+     cout>>"move up here">>endl;
+           ^~~~~~~~~~~~~~
+18:19:10 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:133:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:20:18 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:133:40: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "task "<<tn<<" is "<<b->task->task<<endl;
+                                        ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:25:39 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:135:45: warning: 'tn' is used uninitialized in this function [-Wuninitialized]
+   cout<< "first "<<tn<<" is "<<first->task->task<<endl<<endl;
+                                             ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:27:33 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:147:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:28:36 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:147:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:44:41 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:148:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:45:53 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:151:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:47:38 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:151:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+18:51:05 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:151:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:51:47 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:151:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:53:10 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:152:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:53:25 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:152:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:56:29 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:152:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:57:45 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:148:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+18:58:46 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:149:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+19:10:37 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:149:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+19:12:08 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:149:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+19:14:31 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:149:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+20:32:20 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:149:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:33:10 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:149:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:34:33 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:36:30 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+Info: Nothing to build for DLLTaskManager
+20:50:53 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:52:31 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:53:44 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:55:08 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:55:18 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:57:45 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:187:8: error: expected primary-expression before ')' token
+     if()
+        ^
+20:59:18 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:59:36 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+20:59:50 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:01:16 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:02:48 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:04:55 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:223:4: error: expected ';' before '}' token
+    }else{
+    ^
+21:05:20 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:222:22: error: expected ';' before '}' token
+      cout<<"ya"<<endl}
+                      ^
+21:05:40 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:06:56 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:07:40 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:09:04 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:163:7: warning: unused variable 'c' [-Wunused-variable]
+   int c=0;
+       ^
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:09:14 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:163:7: warning: unused variable 'c' [-Wunused-variable]
+   int c=0;
+       ^
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:09:36 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:163:7: warning: unused variable 'c' [-Wunused-variable]
+   int c=0;
+       ^
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:146:55: warning: 'tn' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   cout<< "task "<<tn<<" is "<<tmpm->next->next->task->task<<endl;
+                                                       ^~~~
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:17:06 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::printList(int)':
+..\DLL.cpp:111:24: warning: unused variable 'i' [-Wunused-variable]
+   DNode *tmpplp=first,*i,*b,*tmpm;
+                        ^
+..\DLL.cpp:111:27: warning: unused variable 'b' [-Wunused-variable]
+   DNode *tmpplp=first,*i,*b,*tmpm;
+                           ^
+..\DLL.cpp:111:30: warning: unused variable 'tmpm' [-Wunused-variable]
+   DNode *tmpplp=first,*i,*b,*tmpm;
+                              ^~~~
+..\DLL.cpp:112:18: warning: unused variable 'tn' [-Wunused-variable]
+   int th=0, tm=0,tn;
+                  ^~
+..\DLL.cpp: In member function 'void DLL::moveUp(int)':
+..\DLL.cpp:167:7: warning: unused variable 'c' [-Wunused-variable]
+   int c=0;
+       ^
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:18:14 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:19:19 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:21:23 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+Info: Nothing to build for DLLTaskManager
+21:23:31 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:26:32 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+21:27:16 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+22:28:28 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+22:37:17 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::listDuration(int*, int*, int)':
+..\DLL.cpp:262:9: error: invalid operands of types 'int*' and 'int' to binary 'operator/'
+   th+=tm/60;
+       ~~^~~
+..\DLL.cpp:263:8: error: invalid operands of types 'int*' and 'int' to binary 'operator%'
+   tm=tm%60;
+      ~~^~~
+22:38:01 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+22:38:54 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::listDuration(int*, int*, int)':
+..\DLL.cpp:266:20: error: qualified-id in declaration before '(' token
+  void DLL::moveDown(int tn) {
+                    ^
+..\DLL.cpp:410:2: error: expected '}' at end of input
+  }
+  ^
+22:39:06 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+22:39:26 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::listDuration(int*, int*, int)':
+..\DLL.cpp:262:9: error: invalid conversion from 'int' to 'int*' [-fpermissive]
+   tm=*tm%60;
+      ~~~^~~
+22:39:54 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+22:41:32 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+22:42:03 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+22:42:57 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+..\DLL.cpp: In member function 'void DLL::listDuration(int*, int*, int)':
+..\DLL.cpp:261:15: error: lvalue required as left operand of assignment
+   &th=*th+*tm/60;
+               ^~
+..\DLL.cpp:262:11: error: lvalue required as left operand of assignment
+   &tm=*tm%60;
+           ^~
+22:48:11 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+22:51:15 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+23:04:47 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+23:11:54 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+23:13:42 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+23:31:41 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+23:33:38 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 
+23:56:04 **** Incremental Build of configuration Debug for project DLLTaskManager ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o DLL.o "..\\DLL.cpp" 
+g++ -o DLLTaskManager.exe DLL.o DNode.o MainDLL.o Task.o TaskManager.o 

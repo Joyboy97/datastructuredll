@@ -1,0 +1,21 @@
+/*
+ * DNode.cpp
+ *
+ *  Created on: Mar 10, 2022
+ *      Author: winne
+ */
+
+#include "DNode.hpp"
+
+DNode::DNode() {
+	// TODO Auto-generated constructor stub
+	DNode *last;
+	int data;
+	DNode *next;
+}
+
+DNode::~DNode() {
+	// TODO Auto-generated destructor stub
+
+}
+

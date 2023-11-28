@@ -1,0 +1,17 @@
+/*
+ * Task.hpp
+ *
+ *  Created on: Mar 10, 2022
+ *      Author: winne
+ */
+
+#ifndef TASK_HPP_
+#define TASK_HPP_
+
+class Task {
+public:
+	Task();
+	virtual ~Task();
+};
+
+#endif /* TASK_HPP_ */
